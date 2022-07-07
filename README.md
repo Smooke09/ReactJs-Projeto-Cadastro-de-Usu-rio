@@ -1,6 +1,6 @@
 # My project
 
-<img src="https://i.imgur.com/Ymz4p5M.png">
+<img src="https://i.imgur.com/RpD5p7n.png">
 
 
 
