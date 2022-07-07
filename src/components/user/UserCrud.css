@@ -1,0 +1,6 @@
+@media (max-width: 576px) {
+  .btn-res {
+    margin-left: 0 !important;
+    margin-top: 5px;
+  }
+}

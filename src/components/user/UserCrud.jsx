@@ -1,3 +1,4 @@
+import "./UserCrud.css";
 import React, { Component } from "react";
 import Main from "../template/Main";
 import axios from "axios";
@@ -135,11 +136,14 @@ export default class UserCrud extends Component {
           <td>{user.name}</td>
           <td>{user.email}</td>
           <td>
-            <button className="btn btn-warning" onClick={() => this.load(user)}>
+            <button
+              className="btn btn-res btn-warning"
+              onClick={() => this.load(user)}
+            >
               <i className="fa fa-pencil"></i>
             </button>
             <button
-              className="btn btn-danger ml-2"
+              className="btn btn-res btn-danger ml-2"
               onClick={() => this.remove(user)}
             >
               <i className="fa fa-trash"></i>
